@@ -20,5 +20,5 @@ gulp.task('link',function(){
     return gulp.src('./react/build/main.js')
             .pipe(browserify())
             .pipe(uglify())
-            .pipe(gulp.dest('./public/static/js/main.min.js'));
+            .pipe(gulp.dest('./public/static/js/'));
 })
