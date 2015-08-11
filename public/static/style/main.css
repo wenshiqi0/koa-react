@@ -1,9 +1,5 @@
-.touch{
-    width: 50px;
-    -webkit-transition: width 0.5s;
+.navi-menu{
+    position: absolute;
+    top:40px;
+    left:120px;
 }
-
-.touch:hover{
-    width: 100px;
-}
-

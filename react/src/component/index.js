@@ -1,11 +1,14 @@
 var React = require('react');
+var NaviBar = require('./NaviBar');
+var ListView = require('./ListView');
+var NaviMenu = require('./NaviMenu');
 
 var Index = React.createClass({
     render: function() {
         return (
             <div>
-                <h1>Test Test</h1>
-                <h2>success</h2>
+                <NaviBar />
+                <ListView />
             </div>
         );
     }

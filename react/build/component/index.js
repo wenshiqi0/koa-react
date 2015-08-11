@@ -1,15 +1,17 @@
 var React = require('react');
+var NaviBar = require('./NaviBar');
+var ListView = require('./ListView');
+var NaviMenu = require('./NaviMenu');
 
 var Index = React.createClass({displayName: "Index",
     render: function() {
         return (
             React.createElement("div", null, 
-                React.createElement("h1", null, "Test Test"), 
-                React.createElement("h2", null, "success")
+                React.createElement(NaviBar, null), 
+                React.createElement(ListView, null)
             )
         );
     }
-
 });
 
 module.exports = Index;

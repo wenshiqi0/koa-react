@@ -22,3 +22,5 @@ gulp.task('link',function(){
             .pipe(uglify())
             .pipe(gulp.dest('./public/static/js/'));
 })
+
+gulp.task('make',['compile','link']);
